@@ -1,0 +1,60 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  .flex-div {
+    display: flex;
+  }
+  
+  input {
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    outline: none;
+  }
+  
+  button {
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    background-color: #eeeeee;
+  }
+  
+  button:hover {
+    background-color: #ff6677;
+    cursor: pointer;
+  }
+  
+  .input-div {
+    background-color: #dddddd;
+    height: 45px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  
+  .kanryo-div {
+    background-color: #dddddd;
+    width: 50%;
+    min-height: 250px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  
+  .mikanryo-div {
+    background-color: #dddddd;
+    width: 50%;
+    min-height: 250px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  
+  .ttl {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5px;
+    color: #555;
+  }
+  

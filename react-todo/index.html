@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TODOアプリ</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="src/styles.css">
+  </head>
+
+  <body>
+    <div class="input-div">
+      <input id="input-add" type="text" placeholder="ここにTODOを記述する" />
+      <button id="btn-add">追加</button>
+    </div>
+
+    <div class="flex-div">
+      <div class="mikanryo-div">
+        <p class="ttl">未完了</p>
+        <ul id="mikanryo-ul">
+        </ul>
+      </div>
+      <div class="kanryo-div">
+        <p class="ttl">完了</p>
+        <ul id="kanryo-ul"></ul>
+        </ul>
+      </div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
